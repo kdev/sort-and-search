@@ -1,5 +1,4 @@
-// const unsorted = [94, 72, 28, 27, 38, 83];
-const b = [5, 90, 3, 9, 7, 2, 1];
+const unsorted = [94, 72, 28, 27, 38, 83];
 
 const mergesort = (array) => {
     if (array.length <= 1) {
@@ -33,4 +32,4 @@ const merge = (l, r) => {
     return array;
 };
 
-console.log(mergesort(b));
+console.log(mergesort(unsorted));
